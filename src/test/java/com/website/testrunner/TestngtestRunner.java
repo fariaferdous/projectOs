@@ -9,7 +9,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 	@CucumberOptions
 	(features="Features",
 	glue="com.website.stepdefs",
-	tags="@contactus"
+	tags="@hardwareproduct"
 	)
 	public class TestngtestRunner extends AbstractTestNGCucumberTests{
 		
